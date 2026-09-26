@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dossier de candidature</title>
+  <meta name="description" content="Mon CV, version cœur. Photos, vidéos, vocaux et un test de compatibilité.">
+  <meta name="theme-color" content="#fbf5ee">
+
+  <!-- Aperçu du lien (WhatsApp, Messenger, iMessage…). Remplace l'URL par celle de ton site. -->
+  <meta property="og:title" content="Dossier de candidature 💌">
+  <meta property="og:description" content="J'ai préparé quelque chose pour toi. Ouvre-le.">
+  <meta property="og:image" content="https://TON-PSEUDO.github.io/Perso/assets/photos/profil.jpg">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💌</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <main id="app"></main>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <div class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Galerie">
+    <button class="lb-close" aria-label="Fermer">×</button>
+    <button class="lb-nav lb-prev" aria-label="Précédent">‹</button>
+    <figure class="lb-stage"></figure>
+    <button class="lb-nav lb-next" aria-label="Suivant">›</button>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
