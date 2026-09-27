@@ -47,7 +47,7 @@ window.CV = {
       "bons restos, les voyages improvisés, les couchers de soleil et les fous rires. " +
       "Assez sportif : vélo de route, course à pied et rando, mais grand touche-à-tout. " +
       "Sinon, je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture.",
-    passions: ["🍝 Cuisine", "✈️ Voyages", "🚴 Vélo", "🏍️ Moto", "🥾 Rando", "🏃 Course à pied", "🎬 Cinéma"],
+    passions: ["✈️ Voyages", "🚴 Vélo", "🏍️ Moto", "🥾 Rando", "🏃 Course à pied"],
   },
 
   /* ---------- 02 · Expériences ---------- */
