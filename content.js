@@ -12,7 +12,7 @@
    ========================================================================== */
 
 window.CV = {
-  prenom: "Alex",
+  prenom: "Alexis",
   // Mot utilisé à la place de {pour} quand le lien n'a pas de ?pour=...
   // Laisse "" pour simplement l'enlever (« Alors, on se voit ? »).
   pourParDefaut: "Cloé",
@@ -25,7 +25,7 @@ window.CV = {
       "Dossier de candidature sans prétention d'un garçon lambda, tombé par hasard sur tes créations audiovisuelles. " +
       "J'imagine que tes DM débordent de « slt ça va 😏 »… alors je me permets de faire une prise de contact un peu plus originale.",
     photo: "assets/photos/profil.jpg",
-    legendePhoto: "moi, en vrai (non retouché)",
+    legendePhoto: "Premier aperçu",
     tampon: "Candidat sérieux",
     vocal: { src: "assets/audio/bonjour.mp3", titre: "Écoute ma voix" },
   },
@@ -35,17 +35,18 @@ window.CV = {
     titre: "Fiche d'identité",
     photo: "assets/photos/identite.jpg",
     champs: [
-      { label: "Âge", valeur: "29 ans" },
-      { label: "Ville", valeur: "Lyon" },
-      { label: "Taille", valeur: "1m82 (oui j'ai vérifié)" },
-      { label: "Métier", valeur: "Développeur le jour" },
-      { label: "Signe", valeur: "Lion ♌ ascendant câlin" },
+      { label: "Âge", valeur: "27 ans" },
+      { label: "Ville", valeur: "Grenoble" },
+      { label: "Taille", valeur: "1m88" },
+      { label: "Métier", valeur: "Ingénieur Systèmes et Réseaux" },
+      { label: "Signe", valeur: "Vierge" },
       { label: "Statut", valeur: "Disponible immédiatement" },
     ],
     aPropos:
-      "Je suis curieux, un peu drôle (d'après ma mère) et j'ai une passion sincère pour les " +
-      "bons restos, les voyages improvisés et les longues discussions qui finissent à 2h du matin. " +
-      "Je cherche quelqu'un avec qui rire, partir en week-end sur un coup de tête et partager des frites.",
+      "Je suis curieux, relativement drôle et bon délire, j'ai une passion sincère pour les " +
+      "bons restos, les voyages improvisés, les couchers de soleil et les fous rires." +
+      "Assez sportif : vélo de route, course à pied et rando, mais grand touche à tout." +
+      "Sinon, je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture." +,
     passions: ["🍝 Cuisine", "✈️ Voyages", "🎸 Guitare", "🏃 Course à pied", "🎬 Cinéma", "📚 Romans"],
   },
 
@@ -54,19 +55,19 @@ window.CV = {
     titre: "Expériences de vie",
     liste: [
       {
-        poste: "Chef cuisinier du dimanche",
+        poste: "Chef cuisto",
         lieu: "Ma cuisine",
-        description: "Spécialiste des pâtes fraîches. Taux de satisfaction des invités : 100 % (ils sont polis).",
+        description: "Spécialiste des vraies pâtes carbo, lasagnes et tout ve qui se rapproche de l'Italie. Taux de satisfaction des invités : 100 % (ils sont polis).",
       },
       {
-        poste: "Explorateur en sac à dos",
-        lieu: "Asie du Sud-Est",
-        description: "6 mois, 4 pays, 1 seul sac. J'ai appris à négocier, à me perdre et à retrouver mon chemin.",
+        poste: "Explorateur",
+        lieu: "Vietnam",
+        description: "1 mois, du nord au sud, 1 seul sac. Pas de tourista, que des bons souvenirs",
       },
       {
-        poste: "Meilleur ami de mes amis",
+        poste: "Meilleur pote de mes amis",
         lieu: "Partout",
-        description: "Déménagements, ruptures, anniversaires surprises : toujours présent, toujours avec des croissants.",
+        description: "Déménagements, ruptures, anniversaires, commérages : toujours présent.",
       },
     ],
   },
@@ -75,12 +76,11 @@ window.CV = {
   competences: {
     titre: "Compétences",
     liste: [
-      { nom: "Carbonara (la vraie, sans crème)", niveau: 95 },
-      { nom: "Écoute & conversations profondes", niveau: 88 },
-      { nom: "Trouver des restos cachés", niveau: 90 },
-      { nom: "Câlins", niveau: 99 },
-      { nom: "Plier un drap-housse", niveau: 12 },
-      { nom: "Se lever tôt le week-end", niveau: 25 },
+      { nom: "Écoute & remise en question ", niveau: 78 },
+      { nom: "Trouver des restos stylés", niveau: 82 },
+      { nom: "Petites attentions", niveau: 90 },
+      { nom: "Plier un drap-housse", niveau: 23 },
+      { nom: "Se lever tôt le week-end", niveau: 95 },
     ],
   },
 
@@ -115,16 +115,14 @@ window.CV = {
     titre: "En toute transparence",
     qualitesTitre: "Green flags",
     qualites: [
-      "Je réponds aux messages (vraiment)",
-      "Je me souviens des petits détails",
-      "Je cuisine pour deux sans qu'on me le demande",
-      "Je sais dire pardon",
+      "Je me souviens des petits détails (j'essaie)",
+      "Je sais reconnaitre quand j'ai tord",
     ],
     defautsTitre: "Petits défauts",
     defauts: [
-      "Je chante faux sous la douche",
-      "Je pique les frites dans ton assiette",
-      "Je regarde « juste un épisode » (jamais un seul)",
+      "Je chante pas super super bien",
+      "Parfois un peu de mal à communiquer (j'y travaille)",
+      "Je m'endors avant la moitié de film.",
     ],
   },
 
@@ -133,14 +131,12 @@ window.CV = {
     titre: "Profil recherché",
     intro: "Poste à pourvoir immédiatement. CDI envisageable après période d'essai concluante.",
     missions: [
-      "Rire à mes blagues (même les nulles)",
-      "Choisir le film quand je n'y arrive pas",
-      "Partager des desserts et des aventures",
+      "Faire les 400 coups ensemble",
+      "Partager des aventures",
     ],
     avantages: [
-      "Petit-déj au lit le dimanche",
-      "Accès illimité à mes sweats",
-      "Un partenaire de voyage motivé",
+      "Accès illimité à mes sweats et t-shirts",
+      "Un partenaire de vie incroyable (en toute modestie)",
       "Massages après les longues journées",
     ],
   },
@@ -166,9 +162,9 @@ window.CV = {
   temoignages: {
     titre: "Recommandations",
     liste: [
-      { texte: "Il m'appelle tous les dimanches. Et il fait très bien le ménage.", auteur: "Maman", role: "Référence n°1, totalement objective" },
-      { texte: "Le pote qui répond présent à 3h du matin. Et qui ramène des pizzas.", auteur: "Thomas", role: "Meilleur ami depuis 15 ans" },
-      { texte: "Il m'a appris à faire du vélo. Il m'a aussi fait tomber. On est quittes.", auteur: "Julie", role: "Petite sœur" },
+      { texte: "Très bon tuteur, mais nous vannes h24.", auteur: "Ses alternants", role: "Référence pro." },
+      { texte: "Le pote qui est toujours présent dans toutes les circonstances.", auteur: "Coco", role: "Meilleur pote" },
+      { texte: "Trop chiant, M'embête tout le temps, mais moi aussi, alors on est quittes.", auteur: "Nina", role: "Petite sœur" },
     ],
   },
 
@@ -188,5 +184,5 @@ window.CV = {
     ],
   },
 
-  piedDePage: "Fait avec ❤️ et beaucoup trop de café.",
+  piedDePage: "Fait avec ❤️ et beaucoup second degré.",
 };
