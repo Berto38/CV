@@ -58,9 +58,10 @@ Ajoute `?pour=Prénom` à la fin du lien :
 https://ton-pseudo.github.io/Perso/?pour=Léa
 ```
 
-L'accueil affiche alors « Léa, ce dossier est pour toi. » et la fin
-« Alors Léa, on se voit ? ». Partout où tu écris `{pour}` dans `content.js`,
-le prénom est inséré.
+Partout où tu écris `{pour}` dans `content.js` (par exemple la question finale
+« Alors {pour}, on se voit ? »), ce prénom est inséré. Sans `?pour=`, c'est la valeur
+de `pourParDefaut` qui est utilisée. Si tu vides `hero.salut`, l'accueil affiche
+« Léa, ce dossier est pour toi. ».
 
 ## 🌍 Mettre le site en ligne (gratuit, avec GitHub Pages)
 

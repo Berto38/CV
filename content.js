@@ -15,12 +15,12 @@ window.CV = {
   prenom: "Alex",
   // Mot utilisé à la place de {pour} quand le lien n'a pas de ?pour=...
   // Laisse "" pour simplement l'enlever (« Alors, on se voit ? »).
-  pourParDefaut: "",
+  pourParDefaut: "Cloé",
 
   /* ---------- Page d'accueil ---------- */
   hero: {
-    salut: "Salut {pour} 👋",
-    poste: "ton prochain crush",
+    salut: "À l’attention de Cloé aka 3octobergirl",
+    poste: "ton futur amoureux",
     accroche:
       "Plutôt qu'un profil de trois lignes, voici mon dossier complet. Prends ton temps, " +
       "il y a des photos, des vidéos, ma voix… et même un test de compatibilité.",
@@ -54,19 +54,16 @@ window.CV = {
     titre: "Expériences de vie",
     liste: [
       {
-        periode: "2020 — aujourd'hui",
         poste: "Chef cuisinier du dimanche",
         lieu: "Ma cuisine",
         description: "Spécialiste des pâtes fraîches. Taux de satisfaction des invités : 100 % (ils sont polis).",
       },
       {
-        periode: "2018 — 2019",
         poste: "Explorateur en sac à dos",
         lieu: "Asie du Sud-Est",
         description: "6 mois, 4 pays, 1 seul sac. J'ai appris à négocier, à me perdre et à retrouver mon chemin.",
       },
       {
-        periode: "Depuis toujours",
         poste: "Meilleur ami de mes amis",
         lieu: "Partout",
         description: "Déménagements, ruptures, anniversaires surprises : toujours présent, toujours avec des croissants.",
@@ -156,7 +153,7 @@ window.CV = {
       { question: "Ton dimanche idéal ?", reponses: ["Brunch puis balade", "Plaid & série", "Rando au lever du soleil"] },
       { question: "Plutôt…", reponses: ["Mer", "Montagne", "City-trip"] },
       { question: "Pizza ananas ?", reponses: ["Jamais de la vie", "Oui, et j'assume", "Je ne me prononce pas"] },
-      { question: "Premier date parfait ?", reponses: ["Verre en terrasse", "Resto surprise", "Activité un peu folle"] },
+      { question: "Premier date parfait ?", reponses: ["Rando lever/coucher de soleil", "Café céramique", "Balade dans un musée"] },
       { question: "Chat ou chien ?", reponses: ["Chat 🐱", "Chien 🐶", "Les deux, évidemment"] },
     ],
     resultat: {

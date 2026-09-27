@@ -128,7 +128,7 @@
 
   function hero() {
     const H = CV.hero || {};
-    const greet = pour ? `${pour}, ce dossier est pour toi.` : t(H.salut);
+    const greet = H.salut ? t(H.salut) : pour ? `${pour}, ce dossier est pour toi.` : "";
     const hearts = h("div", { class: "hearts", "aria-hidden": "true" },
       Array.from({ length: 10 }, (_, i) =>
         h("span", { style: `--x:${(i * 37) % 100}%;--d:${6 + (i % 5) * 1.6}s;--delay:${-(i * 1.3)}s;--s:${0.6 + (i % 4) * 0.25}` }, "♥")
@@ -187,7 +187,7 @@
     return section("experiences", "Parcours", E.titre || "Expériences",
       h("ol", { class: "timeline" },
         E.liste.map((x) => h("li", { class: "reveal" },
-          h("p", { class: "tl-date" }, x.periode),
+          x.periode && h("p", { class: "tl-date" }, x.periode),
           h("h3", {}, x.poste, x.lieu && h("span", { class: "tl-lieu" }, ` · ${x.lieu}`)),
           x.description && h("p", {}, t(x.description))
         ))
