@@ -22,9 +22,8 @@ window.CV = {
     salut: "À l’attention de Cloé aka 3octobergirl",
     poste: "ton futur amoureux",
     accroche:
-      "J'imagine que tes DM débordent de « slt ça va 😏 », alors j'espère que ce n'est pas déplacé : " +
-      "juste une façon un peu plus originale de dire bonjour. Prends ton temps, il y a des photos, " +
-      "des vidéos, ma voix… et même un test de compatibilité.",
+      "Tes DM doivent déborder de « slt ça va 😏 »… J'espère que ce n'est pas déplacé : " +
+      "juste un bonjour un peu plus original.",
     photo: "assets/photos/profil.jpg",
     legendePhoto: "moi, en vrai (non retouché)",
     tampon: "Candidat sérieux",
@@ -176,7 +175,6 @@ window.CV = {
   /* ---------- Final : la grande question ---------- */
   final: {
     titre: "Alors {pour}, on se voit ?",
-    sousTitre: "Entretien d'embauche autour d'un verre, lieu et date à définir ensemble.",
     boutonOui: "Oui, avec plaisir 💖",
     boutonNon: "Non",
     // Le bouton « Non » change de texte à chaque tentative… puis abandonne.
