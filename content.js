@@ -22,8 +22,8 @@ window.CV = {
     salut: "À l’attention de Cloé aka 3octobergirl",
     poste: "ton futur amoureux",
     accroche:
-      "Tes DM doivent déborder de « slt ça va 😏 »… J'espère que ce n'est pas déplacé : " +
-      "c'est plutôt une prise de contact un peu originale.",
+      "Dossier de candidature sans prétention d'un garçon lambda, tombé par hasard sur tes créations audiovisuelles. " +
+      "J'imagine que tes DM débordent de « slt ça va 😏 »… alors je me permets de faire une prise de contact un peu plus originale.",
     photo: "assets/photos/profil.jpg",
     legendePhoto: "moi, en vrai (non retouché)",
     tampon: "Candidat sérieux",
