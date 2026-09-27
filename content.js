@@ -22,8 +22,9 @@ window.CV = {
     salut: "À l’attention de Cloé aka 3octobergirl",
     poste: "ton futur amoureux",
     accroche:
-      "Plutôt qu'un profil de trois lignes, voici mon dossier complet. Prends ton temps, " +
-      "il y a des photos, des vidéos, ma voix… et même un test de compatibilité.",
+      "J'imagine que tes DM débordent de « slt ça va 😏 », alors j'espère que ce n'est pas déplacé : " +
+      "juste une façon un peu plus originale de dire bonjour. Prends ton temps, il y a des photos, " +
+      "des vidéos, ma voix… et même un test de compatibilité.",
     photo: "assets/photos/profil.jpg",
     legendePhoto: "moi, en vrai (non retouché)",
     tampon: "Candidat sérieux",
@@ -158,7 +159,7 @@ window.CV = {
     ],
     resultat: {
       titre: "Compatibilité exceptionnelle",
-      message: "Les résultats sont formels : il ne reste plus qu'à vérifier ça autour d'un verre.",
+      message: "Les résultats sont formels : il ne reste plus qu'à vérifier ça :)",
     },
   },
 
