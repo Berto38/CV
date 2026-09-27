@@ -44,9 +44,9 @@ window.CV = {
     ],
     aPropos:
       "Je suis curieux, relativement drôle et bon délire, j'ai une passion sincère pour les " +
-      "bons restos, les voyages improvisés, les couchers de soleil et les fous rires." +
-      "Assez sportif : vélo de route, course à pied et rando, mais grand touche à tout." +
-      "Sinon, je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture." +,
+      "bons restos, les voyages improvisés, les couchers de soleil et les fous rires. " +
+      "Assez sportif : vélo de route, course à pied et rando, mais grand touche-à-tout. " +
+      "Sinon, je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture.",
     passions: ["🍝 Cuisine", "✈️ Voyages", "🎸 Guitare", "🏃 Course à pied", "🎬 Cinéma", "📚 Romans"],
   },
 
@@ -57,12 +57,12 @@ window.CV = {
       {
         poste: "Chef cuisto",
         lieu: "Ma cuisine",
-        description: "Spécialiste des vraies pâtes carbo, lasagnes et tout ve qui se rapproche de l'Italie. Taux de satisfaction des invités : 100 % (ils sont polis).",
+        description: "Spécialiste des vraies pâtes carbo, lasagnes et tout ce qui se rapproche de l'Italie. Taux de satisfaction des invités : 100 % (ils sont polis).",
       },
       {
         poste: "Explorateur",
         lieu: "Vietnam",
-        description: "1 mois, du nord au sud, 1 seul sac. Pas de tourista, que des bons souvenirs",
+        description: "1 mois, du nord au sud, 1 seul sac. Pas de tourista, que des bons souvenirs.",
       },
       {
         poste: "Meilleur pote de mes amis",
@@ -76,7 +76,7 @@ window.CV = {
   competences: {
     titre: "Compétences",
     liste: [
-      { nom: "Écoute & remise en question ", niveau: 78 },
+      { nom: "Écoute & remise en question", niveau: 78 },
       { nom: "Trouver des restos stylés", niveau: 82 },
       { nom: "Petites attentions", niveau: 90 },
       { nom: "Plier un drap-housse", niveau: 23 },
@@ -116,12 +116,12 @@ window.CV = {
     qualitesTitre: "Green flags",
     qualites: [
       "Je me souviens des petits détails (j'essaie)",
-      "Je sais reconnaitre quand j'ai tord",
+      "Je sais reconnaître quand j'ai tort",
     ],
     defautsTitre: "Petits défauts",
     defauts: [
       "Je chante pas super super bien",
-      "Je m'endors avant la moitié de film.",
+      "Je m'endors avant la moitié du film",
     ],
   },
 
@@ -161,9 +161,9 @@ window.CV = {
   temoignages: {
     titre: "Recommandations",
     liste: [
-      { texte: "Très bon tuteur, mais nous vannes h24.", auteur: "Ses alternants", role: "Référence pro." },
+      { texte: "Très bon tuteur, mais nous vanne H24.", auteur: "Ses alternants", role: "Référence pro." },
       { texte: "Le pote qui est toujours présent dans toutes les circonstances.", auteur: "Coco", role: "Meilleur pote" },
-      { texte: "Trop chiant, M'embête tout le temps, mais moi aussi, alors on est quittes.", auteur: "Nina", role: "Petite sœur" },
+      { texte: "Trop chiant, m'embête tout le temps, mais moi aussi, alors on est quittes.", auteur: "Nina", role: "Petite sœur" },
     ],
   },
 
@@ -183,5 +183,5 @@ window.CV = {
     ],
   },
 
-  piedDePage: "Fait avec ❤️ et beaucoup second degré.",
+  piedDePage: "Fait avec ❤️ et beaucoup de second degré.",
 };
