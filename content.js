@@ -23,7 +23,7 @@ window.CV = {
     poste: "ton futur amoureux",
     accroche:
       "Tes DM doivent déborder de « slt ça va 😏 »… J'espère que ce n'est pas déplacé : " +
-      "juste un bonjour un peu plus original.",
+      "juste une prise de contact un peu plus originale.",
     photo: "assets/photos/profil.jpg",
     legendePhoto: "moi, en vrai (non retouché)",
     tampon: "Candidat sérieux",
