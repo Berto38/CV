@@ -121,7 +121,6 @@ window.CV = {
     defautsTitre: "Petits défauts",
     defauts: [
       "Je chante pas super super bien",
-      "Parfois un peu de mal à communiquer (j'y travaille)",
       "Je m'endors avant la moitié de film.",
     ],
   },
