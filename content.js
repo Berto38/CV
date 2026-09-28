@@ -43,7 +43,7 @@ window.CV = {
       { label: "Statut", valeur: "Disponible immédiatement" },
     ],
     aPropos:
-      "Grand curieux aimant découvrir plein de choses, relativement drôle et bon délire, même si aux premiers abords je pourrais paraitre froid." +
+      "Grand curieux aimant découvrir plein de choses, relativement drôle et bon délire, même si au premier abord je pourrais paraître froid. " +
       "J'ai une passion sincère pour les bons restos, les voyages improvisés, les couchers de soleil et les fous rires. " +
       "Assez sportif : vélo de route, course à pied et rando, mais aussi grand touche-à-tout : tennis, basket... " +
       "Sinon, je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture.",
