@@ -20,9 +20,9 @@ window.CV = {
   /* ---------- Page d'accueil ---------- */
   hero: {
     salut: "À l’attention de Cloé aka 3octobergirl",
-    poste: "ton futur amoureux",
+    poste: "ton futur +1",
     accroche:
-      "Dossier de candidature sans prétention d'un garçon lambda, tombé par hasard sur tes créations audiovisuelles. " +
+      "Dossier de candidature sans prétention d'un garçon simple, tombé par hasard sur tes créations audiovisuelles. " +
       "J'imagine que tes DM débordent de « slt ça va 😏 »… alors je me permets de faire une prise de contact un peu plus originale.",
     photo: "assets/photos/profil.jpg",
     legendePhoto: "Premier aperçu",
@@ -43,9 +43,9 @@ window.CV = {
       { label: "Statut", valeur: "Disponible immédiatement" },
     ],
     aPropos:
-      "Je suis curieux, relativement drôle et bon délire, j'ai une passion sincère pour les " +
-      "bons restos, les voyages improvisés, les couchers de soleil et les fous rires. " +
-      "Assez sportif : vélo de route, course à pied et rando, mais grand touche-à-tout. " +
+      "Grand curieux aimant découvrir plein de choses, relativement drôle et bon délire, même si aux premiers abords je pourrais paraitre froid." +
+      "J'ai une passion sincère pour les bons restos, les voyages improvisés, les couchers de soleil et les fous rires. " +
+      "Assez sportif : vélo de route, course à pied et rando, mais aussi grand touche-à-tout : tennis, basket... " +
       "Sinon, je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture.",
     passions: ["✈️ Voyages", "🚴 Vélo", "🏍️ Moto", "🥾 Rando", "🏃 Course à pied"],
   },
@@ -76,10 +76,10 @@ window.CV = {
   competences: {
     titre: "Compétences",
     liste: [
-      { nom: "Écoute & remise en question", niveau: 78 },
+      { nom: "Écoute, communication & remise en question", niveau: 78 },
       { nom: "Trouver des restos stylés", niveau: 82 },
       { nom: "Petites attentions", niveau: 90 },
-      { nom: "Plier un drap-housse", niveau: 23 },
+      { nom: "Plier un drap-housse seul", niveau: 23 },
       { nom: "Se lever tôt le week-end", niveau: 95 },
     ],
   },
