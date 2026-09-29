@@ -19,10 +19,10 @@ window.CV = {
 
   /* ---------- Page d'accueil ---------- */
   hero: {
-    salut: "À l’attention de Cloé aka 3octobergirl",
+    salut: "À l’attention de Cloé",
     poste: "ton futur +1",
     accroche:
-      "Dossier de candidature sans prétention d'un garçon simple, tombé par hasard sur tes créations audiovisuelles. " +
+      "Dossier de candidature sans prétention d'Un garçon simple, tombé par hasard sur tes créations audiovisuelles. " +
       "J'imagine que tes DM débordent de « slt ça va 😏 »… alors je me permets de faire une prise de contact un peu plus originale.",
     photo: "assets/photos/profil.jpg",
     legendePhoto: "Premier aperçu",
@@ -43,10 +43,10 @@ window.CV = {
       { label: "Statut", valeur: "Disponible immédiatement" },
     ],
     aPropos:
-      "Grand curieux aimant découvrir plein de choses, relativement drôle et bon délire, même si au premier abord je pourrais paraître froid. " +
-      "J'ai une passion sincère pour les bons restos, les voyages improvisés, les couchers de soleil et les fous rires. " +
-      "Assez sportif : vélo de route, course à pied et rando, mais aussi grand touche-à-tout : tennis, basket... " +
-      "Sinon, je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture.",
+      "Grand curieux aimant découvrir plein de choses, qui essaie de sortir de sa zone de confort, relativement drôle et bon délire." +
+      "J'ai une passion pour les bons restos, les voyages improvisés, les couchers de soleil et les fous rires. C'est un peu bateau, j'avoue... " +
+      "Assez sportif : vélo de route, course à pied et rando, mais aussi grand touche-à-tout : tennis, basket, je vais pas tout lister non plus lol " +
+      "Je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture (j'ai 3 livres chez moi), ni de mangas ou d'animés.",
     passions: ["✈️ Voyages", "🚴 Vélo", "🏍️ Moto", "🥾 Rando", "🏃 Course à pied"],
   },
 
@@ -57,15 +57,15 @@ window.CV = {
       {
         poste: "Chef cuisto",
         lieu: "Ma cuisine",
-        description: "Spécialiste des vraies pâtes carbo, lasagnes et tout ce qui se rapproche de l'Italie. Taux de satisfaction des invités : 100 % (ils sont polis).",
+        description: "Spécialiste des vraies pâtes carbo, lasagnes et tout ce qui se rapproche de l'Italie. Taux de satisfaction des invités : 100 % (ils sont polis je pense).",
       },
       {
         poste: "Explorateur",
         lieu: "Vietnam",
-        description: "1 mois, du nord au sud, 1 seul sac. Pas de tourista, que des bons souvenirs.",
+        description: "1 mois, du nord au sud, 1 seul sac. Pas de tourista et que des bons souvenirs.",
       },
       {
-        poste: "Meilleur pote de mes amis",
+        poste: "Meilleur pote",
         lieu: "Partout",
         description: "Déménagements, ruptures, anniversaires, commérages : toujours présent.",
       },
@@ -77,10 +77,10 @@ window.CV = {
     titre: "Compétences",
     liste: [
       { nom: "Écoute, communication & remise en question", niveau: 78 },
-      { nom: "Trouver des restos stylés", niveau: 82 },
+      { nom: "Trouver des restos stylés", niveau: 70 },
       { nom: "Petites attentions", niveau: 90 },
       { nom: "Plier un drap-housse seul", niveau: 23 },
-      { nom: "Se lever tôt le week-end", niveau: 95 },
+      { nom: "Se lever tôt le week-end", niveau: 81 },
     ],
   },
 
@@ -102,7 +102,7 @@ window.CV = {
   /* ---------- 05 · Vocaux ---------- */
   vocaux: {
     titre: "Messages vocaux",
-    intro: "Parce qu'une voix en dit plus long que mille textos.",
+    intro: "Parce qu'une voix en dit plus long que mille lignes.",
     liste: [
       { src: "assets/audio/vocal-1.mp3", titre: "Pourquoi ce site ?", description: "La petite histoire, en 30 secondes." },
       { src: "assets/audio/vocal-2.mp3", titre: "Mon rire", description: "Attention, il est contagieux." },
@@ -116,26 +116,28 @@ window.CV = {
     qualitesTitre: "Green flags",
     qualites: [
       "Je me souviens des petits détails (j'essaie)",
-      "Je sais reconnaître quand j'ai tort",
+      "Je sais ce que je veux",
+      "Mature, fiable et respectueux",
     ],
     defautsTitre: "Petits défauts",
     defauts: [
       "Je chante pas super super bien",
       "Je m'endors avant la moitié du film",
+      "Réservé avec les incoonus - j'analyse avant de m'intégrer 100%"
     ],
   },
 
   /* ---------- 07 · Profil recherché ---------- */
   recherche: {
     titre: "Profil recherché",
-    intro: "Poste à pourvoir immédiatement. CDI envisageable après période d'essai concluante.",
+    intro: "Poste à pourvoir immédiatement. CDI préférable après période d'essai concluante.",
     missions: [
       "Faire les 400 coups ensemble",
       "Partager des aventures",
     ],
     avantages: [
-      "Accès illimité à mes sweats et t-shirts",
-      "Un partenaire de vie incroyable (en toute modestie)",
+      "Accès illimité à mes pulls",
+      "Un partenaire de vie incroyable (en toute modestie évidemment)",
       "Massages après les longues journées",
     ],
   },
@@ -162,26 +164,24 @@ window.CV = {
     titre: "Recommandations",
     liste: [
       { texte: "Très bon tuteur, mais nous vanne H24.", auteur: "Ses alternants", role: "Référence pro." },
-      { texte: "Le pote qui est toujours présent dans toutes les circonstances.", auteur: "Coco", role: "Meilleur pote" },
-      { texte: "Trop chiant, m'embête tout le temps, mais moi aussi, alors on est quittes.", auteur: "Nina", role: "Petite sœur" },
+      { texte: "Ce mec est toujours présent dans toutes les circonstances.", auteur: "Coco", role: "Meilleur pote" },
+      { texte: "Trop chiant, m'embête tout le temps, mais moi aussi, alors on est quittes.", auteur: "N", role: "Petite sœur" },
     ],
   },
 
   /* ---------- Final : la grande question ---------- */
   final: {
-    titre: "Alors {pour}, on se voit ?",
+    titre: "Alors {pour}, tu me laisse une chance ?",
     boutonOui: "Oui, avec plaisir 💖",
     boutonNon: "Non",
     // Le bouton « Non » change de texte à chaque tentative… puis abandonne.
     nonTextes: ["T'es sûre ?", "Vraiment ?", "Réfléchis encore…", "Allez…", "Dernière chance !"],
-    merci: "Trop bien ! Écris-moi, j'ai hâte 😊",
+    merci: "Trop bien ! Écris-moi !",
     contacts: [
-      { type: "whatsapp", label: "WhatsApp", url: "https://wa.me/33600000000?text=Oui%20pour%20le%20verre%20%F0%9F%98%8A" },
       { type: "instagram", label: "Instagram", url: "https://instagram.com/ton_pseudo" },
       { type: "sms", label: "SMS", url: "sms:+33600000000" },
-      { type: "email", label: "E-mail", url: "mailto:ton.email@exemple.fr" },
     ],
   },
 
-  piedDePage: "Fait avec ❤️ et beaucoup de second degré.",
+  piedDePage: "Fait avec ❤️ et second degré, mais avec une volontée sincère de peut être tomber sur la femme de ma vie.",
 };
