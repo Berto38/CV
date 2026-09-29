@@ -38,14 +38,14 @@ window.CV = {
       { label: "Âge", valeur: "27 ans" },
       { label: "Ville", valeur: "Grenoble" },
       { label: "Taille", valeur: "1m88" },
-      { label: "Métier", valeur: "Ingénieur Systèmes et Réseaux" },
+      { label: "Métier", valeur: "Ingénieur Systèmes et Réseaux - Responsable d'équipe" },
       { label: "Signe", valeur: "Vierge" },
       { label: "Statut", valeur: "Disponible immédiatement" },
     ],
     aPropos:
-      "Grand curieux aimant découvrir plein de choses, qui essaie de sortir de sa zone de confort, relativement drôle et bon délire." +
-      "J'ai une passion pour les bons restos, les voyages improvisés, les couchers de soleil et les fous rires. C'est un peu bateau, j'avoue... " +
-      "Assez sportif : vélo de route, course à pied et rando, mais aussi grand touche-à-tout : tennis, basket, je vais pas tout lister non plus lol " +
+      "Curieux qui aime découvrir plein de choses, essaie de sortir de sa zone de confort, relativement drôle et bon délire. " +
+      "J'ai une passion pour les bons restos, les voyages improvisés, les couchers de soleil et les fous rires. " +
+      "Assez sportif : vélo de route, course à pied et rando, mais aussi grand touche-à-tout : tennis, basket, je vais pas tout lister non plus lol. " +
       "Je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture (j'ai 3 livres chez moi), ni de mangas ou d'animés.",
     passions: ["✈️ Voyages", "🚴 Vélo", "🏍️ Moto", "🥾 Rando", "🏃 Course à pied"],
   },
@@ -77,7 +77,7 @@ window.CV = {
     titre: "Compétences",
     liste: [
       { nom: "Écoute, communication & remise en question", niveau: 78 },
-      { nom: "Trouver des restos stylés", niveau: 70 },
+      { nom: "Trouver des restos stylés", niveau: 67 },
       { nom: "Petites attentions", niveau: 90 },
       { nom: "Plier un drap-housse seul", niveau: 23 },
       { nom: "Se lever tôt le week-end", niveau: 81 },
@@ -134,9 +134,10 @@ window.CV = {
     missions: [
       "Faire les 400 coups ensemble",
       "Partager des aventures",
+      "Aimante & loyale",
     ],
     avantages: [
-      "Accès illimité à mes pulls",
+      "Tickets resto + accès ilimités à mes pulls",
       "Un partenaire de vie incroyable (en toute modestie évidemment)",
       "Massages après les longues journées",
     ],
@@ -164,7 +165,7 @@ window.CV = {
     titre: "Recommandations",
     liste: [
       { texte: "Très bon tuteur, mais nous vanne H24.", auteur: "Ses alternants", role: "Référence pro." },
-      { texte: "Ce mec est toujours présent dans toutes les circonstances.", auteur: "Coco", role: "Meilleur pote" },
+      { texte: "Ce mec est une pépite.", auteur: "Ses meilleurs potes", role: "Références perso" },
       { texte: "Trop chiant, m'embête tout le temps, mais moi aussi, alors on est quittes.", auteur: "N", role: "Petite sœur" },
     ],
   },
