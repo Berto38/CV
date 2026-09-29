@@ -22,7 +22,7 @@ window.CV = {
     salut: "À l’attention de Cloé",
     poste: "ton futur +1",
     accroche:
-      "Dossier de candidature sans prétention d'Un garçon simple, tombé par hasard sur tes créations audiovisuelles. " +
+      "Dossier de candidature sans prétention d'un garçon simple, tombé par hasard sur tes créations audiovisuelles. " +
       "J'imagine que tes DM débordent de « slt ça va 😏 »… alors je me permets de faire une prise de contact un peu plus originale.",
     photo: "assets/photos/profil.jpg",
     legendePhoto: "Premier aperçu",
@@ -38,14 +38,14 @@ window.CV = {
       { label: "Âge", valeur: "27 ans" },
       { label: "Ville", valeur: "Grenoble" },
       { label: "Taille", valeur: "1m88" },
-      { label: "Métier", valeur: "Ingénieur Systèmes et Réseaux - Responsable d'équipe" },
+      { label: "Métier", valeur: "Ingénieur Systèmes et Réseaux – Responsable d'équipe" },
       { label: "Signe", valeur: "Vierge" },
       { label: "Statut", valeur: "Disponible immédiatement" },
     ],
     aPropos:
-      "Curieux qui aime découvrir plein de choses, essaie de sortir de sa zone de confort, relativement drôle et bon délire. " +
+      "Curieux, j'aime découvrir plein de choses et j'essaie de sortir de ma zone de confort. Relativement drôle et bon délire. " +
       "J'ai une passion pour les bons restos, les voyages improvisés, les couchers de soleil et les fous rires. " +
-      "Assez sportif : vélo de route, course à pied et rando, mais aussi grand touche-à-tout : tennis, basket, je vais pas tout lister non plus lol. " +
+      "Assez sportif : vélo de route, course à pied et rando, mais aussi grand touche-à-tout : tennis, basket… je vais pas tout lister non plus lol. " +
       "Je fais aussi de la motocyclette. En revanche, je ne suis pas un grand fan de lecture (j'ai 3 livres chez moi), ni de mangas ou d'animés.",
     passions: ["✈️ Voyages", "🚴 Vélo", "🏍️ Moto", "🥾 Rando", "🏃 Course à pied"],
   },
@@ -57,7 +57,7 @@ window.CV = {
       {
         poste: "Chef cuisto",
         lieu: "Ma cuisine",
-        description: "Spécialiste des vraies pâtes carbo, lasagnes et tout ce qui se rapproche de l'Italie. Taux de satisfaction des invités : 100 % (ils sont polis je pense).",
+        description: "Spécialiste des vraies pâtes carbo, lasagnes et tout ce qui se rapproche de l'Italie. Taux de satisfaction des invités : 100 % (ils sont polis, je pense).",
       },
       {
         poste: "Explorateur",
@@ -123,7 +123,7 @@ window.CV = {
     defauts: [
       "Je chante pas super super bien",
       "Je m'endors avant la moitié du film",
-      "Réservé avec les incoonus - j'analyse avant de m'intégrer 100%"
+      "Réservé avec les inconnus : j'analyse avant de m'intégrer à 100 %",
     ],
   },
 
@@ -134,10 +134,10 @@ window.CV = {
     missions: [
       "Faire les 400 coups ensemble",
       "Partager des aventures",
-      "Aimante & loyale",
+      "Être aimante & loyale",
     ],
     avantages: [
-      "Tickets resto + accès ilimités à mes pulls",
+      "Tickets resto + accès illimité à mes pulls",
       "Un partenaire de vie incroyable (en toute modestie évidemment)",
       "Massages après les longues journées",
     ],
@@ -172,7 +172,7 @@ window.CV = {
 
   /* ---------- Final : la grande question ---------- */
   final: {
-    titre: "Alors {pour}, tu me laisse une chance ?",
+    titre: "Alors {pour}, tu me laisses une chance ?",
     boutonOui: "Oui, avec plaisir 💖",
     boutonNon: "Non",
     // Le bouton « Non » change de texte à chaque tentative… puis abandonne.
@@ -184,5 +184,5 @@ window.CV = {
     ],
   },
 
-  piedDePage: "Fait avec ❤️ et second degré, mais avec une volontée sincère de peut être tomber sur la femme de ma vie.",
+  piedDePage: "Fait avec ❤️ et second degré, mais avec une volonté sincère de peut-être tomber sur la femme de ma vie.",
 };
