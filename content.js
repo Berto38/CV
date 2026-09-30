@@ -104,7 +104,7 @@ window.CV = {
     titre: "Messages vocaux",
     intro: "Parce qu'une voix en dit plus long que mille lignes.",
     liste: [
-      { src: "assets/audio/Cloé.m4a", titre: "Pourquoi ce site ?", description: "La petite histoire, en 30 secondes." },
+      { src: "assets/audio/Cloe.m4a", titre: "Pourquoi ce site ?", description: "La petite histoire, en 30 secondes." },
       { src: "assets/audio/vocal-2.mp3", titre: "Mon rire", description: "Attention, il est contagieux." },
       { src: "assets/audio/vocal-3.mp3", titre: "Ma pire blague", description: "Je m'excuse d'avance." },
     ],
