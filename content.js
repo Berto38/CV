@@ -24,7 +24,7 @@ window.CV = {
     accroche:
       "Dossier de candidature sans prétention d'un garçon simple, tombé par hasard sur tes créations audiovisuelles. " +
       "J'imagine que tes DM débordent de « slt ça va 😏 »… alors je me permets de faire une prise de contact un peu plus originale.",
-    photo: "assets/photos/profil.jpg",
+    photo: "assets/photos/profil.jpeg",
     legendePhoto: "Premier aperçu",
     tampon: "Candidat sérieux",
     vocal: { src: "assets/audio/bonjour.mp3", titre: "Écoute ma voix" },
